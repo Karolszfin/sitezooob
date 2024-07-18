@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de E-books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .ebook {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ebook h2 {
+            color: #007BFF;
+        }
+        .payment {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .payment h2 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Venda de E-books</h1>
+        <p>Encontre aqui os melhores e-books para você</p>
+    </header>
+    <div class="container">
+        <div class="ebook">
+            <h2>Título do E-book 1</h2>
+            <p>Descrição breve do e-book 1. Este e-book aborda temas importantes sobre...</p>
+            <p><strong>Preço:</strong> R$ 29,90</p>
+        </div>
+        <div class="ebook">
+            <h2>Título do E-book 2</h2>
+            <p>Descrição breve do e-book 2. Este e-book aborda temas importantes sobre...</p>
+            <p><strong>Preço:</strong> R$ 39,90</p>
+        </div>
+        <div class="payment">
+            <h2>Formas de Pagamento</h2>
+            <p>A melhor forma de pagamento para nossos e-books é via Pix.</p>
+            <p><strong>Chave Pix:</strong> seu-email@exemplo.com</p>
+            <p>Após realizar o pagamento, envie o comprovante para nosso e-mail para receber o e-book.</p>
+        </div>
+    </div>
+</body>
+</html>
